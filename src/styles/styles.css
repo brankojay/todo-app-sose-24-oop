@@ -1,0 +1,75 @@
+@import "./reset.css";
+
+.container {
+    max-width: 40vw;
+    margin: 0 auto;
+}
+
+#todo-form {
+    margin-top: 2rem;
+}
+
+#add-todo-button {
+    cursor: pointer;
+    margin-left: .5rem;
+}
+
+#todo-list {
+    margin-top: 2rem;
+    list-style: none;
+    padding-left: 0;
+}
+
+.app-input {}
+.app-input.input-invalid {
+    border-color: red;
+}
+
+.app-button {}
+
+.app-icon-button {
+    appearance: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.app-icon-button svg {
+    width: 15px;
+}
+
+.app-list-item {
+    padding: .5rem 0;
+    background-color: gainsboro;
+    margin-bottom: .5rem;
+}
+
+.app-list-item__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.app-list-item__headline {
+    margin-left: .5rem;
+}
+
+.app-list-item__controls {
+    display: flex;
+    align-items: center;
+}
+
+.app-list-item__controls__delete {
+}
+
+.app-list-item__controls__edit:hover svg {
+    fill: blue;
+}
+
+.app-list-item__controls__delete:hover svg {
+    fill: red;
+}
+
+.hidden {
+    display: none;
+}
