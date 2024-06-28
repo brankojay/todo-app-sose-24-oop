@@ -4,3 +4,8 @@
 Zum Installieren der Abhängigkeiten, diesen Befehl im Terminal ausführen:
 
 `npm install`
+
+## Entwicklung
+Zum Starten des lokalen Entwicklungsservers, diesen Befehl im Terminal ausführen:
+
+`npm run dev`
